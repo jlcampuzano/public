@@ -14,7 +14,7 @@ alias la='ls -Ah'
 alias l='ls -CFh'
 
 #alias pgg="netstat -nr |grep default | awk '{ print $2; }' | xargs ping"
-#alias pgi='ping 8.8.8.8'
+alias pgi='ping 8.8.8.8'
 
 umask 022
 
