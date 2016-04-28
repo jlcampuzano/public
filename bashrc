@@ -1,4 +1,5 @@
-export PS1='[\[\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[31;1m\]\w\[\e[0m\]]\$ '
+export PS1="[\[\e[36m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]]\\$ "
+#export PS1='[\[\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[31;1m\]\w\[\e[0m\]]\$ '
 
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
